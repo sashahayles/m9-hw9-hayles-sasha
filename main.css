@@ -1,6 +1,11 @@
   #accordion {
     height:500px;
-    background-color:
-    width:60%;
+    background-color:;
+    width: 70%;
     margin-left: auto;
+  }
+  @media (min-width:768px) {
+    #accordion{
+      width:60%;
+    }
   }
