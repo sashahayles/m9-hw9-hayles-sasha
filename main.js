@@ -6,12 +6,12 @@ function openAccordion() {
 
   //toogle indicator
   for (i=0; i <accordionTitle.length; i++) {
-    accordionTitle[i].childNodes[3].innerHTML = 'v';
+    accordionTitle[i].childNodes[3].innerHTML = '▼';
     accordDesc[i].classList.remove('accordion-open');
   }
 
   this.nextElementSibling.classList.toggle ('accordion-open');
-  this.childNodes[3].innerHTML ='^';
+  this.childNodes[3].innerHTML ='▲';
 }
 //event listener
 for (i=0; i < accordionTitle.length; i++) {
